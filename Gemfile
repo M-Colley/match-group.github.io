@@ -1,10 +1,6 @@
 source 'https://rubygems.org'
 
-# gem "jekyll", github: "jekyll/jekyll"
-# gem "jekyll", ">= 3.6.3"
-# gem "jekyll", "=3.8.5"
-gem "jekyll", "<4.0.0"
-gem "thin"
-gem 'kramdown-parser-gfm'
-gem 'jekyll-sass-converter', '1.5.2'
-
+gem "jekyll", "~> 4.3.4"
+gem "thin", "~> 1.8.2"
+gem "kramdown-parser-gfm", "~> 1.1"
+gem "jekyll-sass-converter", "~> 3.0"
