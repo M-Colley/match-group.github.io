@@ -1,0 +1,14 @@
+- name: MATCH Group
+  photo: PLACEHOLDER-4.png
+  info: Mobility, AccessibiliTy, and Computational HCI
+  website: https://www.ucl.ac.uk/uclic/
+  email: https://profiles.ucl.ac.uk/102233-mark-colley
+  github: https://github.com/match-group
+  researchgate: https://www.researchgate.net/profile/Mark-Colley
+  scholar: https://scholar.google.com/citations?user=Kt5I7wYAAAAJ&hl=de
+  cv: https://m-colley.github.io/files/CV_Colley_2025.pdf
+  number_educ: 1 # Anzahl von den darszustellenden Punkten
+  education1: (2024) Research Group founded by Mark Colley
+  #education2: xxx
+  education1short: (2024) Research Group founded by Mark Colley
+  #education2short: xxx

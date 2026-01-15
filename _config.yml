@@ -1,0 +1,60 @@
+# Site settings
+title: MATCH Group
+email: match.hci.group@gmail.me
+description: "Building computational models of interaction."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://match-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# affiliation: We are a part of <a href="http://scads.ai" target="_blank">SCADS.AI</a> at Leipzig University
+
+# Google analytics ID
+google_analytics: UA-XXXXX-Y # Put your actual GA identifier
+
+# Location info. (shown in footer)
+location: >
+  66-72 Gower St <br/>
+  2. Floor <br/>
+  WC1H 0AL <br/>
+  London, UK <br/>
+   
+
+# Contact info. (shown in footer)
+# contact: >
+   # Email <a href="https://www.uni-leipzig.de/en/profile/mitarbeiter/patrick-ebel" target="_blank" style="color: blue;"> Patrick Ebel</a> to get in contact!
+
+
+
+# Pages shown in navbar
+nav_pages:
+
+  - name: publications
+  - name: research
+  - name: team
+
+# Do you want to group your publications by year? {true/false}
+group_pub_by_year: true
+
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true

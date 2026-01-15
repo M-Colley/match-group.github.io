@@ -1,0 +1,101 @@
+<!--
+<div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+			
+            <p>&copy 2023 {{site.title | escape }} </p>
+
+             <p>{{ site.affiliation }}</p> 
+
+		   
+            		  
+		</div>
+
+		<div class="col-sm-4">
+            <p>{{ site.contact }}</p> 
+		 {% for member in site.data.pi %}
+	
+		<center>
+	   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
+	   {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+	   {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}	   
+	    </center>
+		
+	
+	
+	{% endfor %}
+		</div>
+
+
+		<div class="col-sm-4">
+            <p>{{ site.location }}</p>
+		</div>
+
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+
+-->
+
+<div id="footer" class="panel">
+	<div class="panel-footer">
+	  <div class="container-fluid">
+		<div class="row">
+
+
+		  <!-- Site Title Column -->
+		  <div class="col-sm-4">
+			<p>&copy 2023 {{site.title | escape }}</p>
+		  </div>
+  
+		  <!-- Member Icons Column -->
+		  <div class="col-sm-4" style="display: flex; justify-content: center;">
+			<div style="margin-top: 16px;"> <!-- Adjust 'margin-top' to push icons lower -->
+			  {% for member in site.data.pi %}
+
+			  	{% if member.email %}
+			  	<a href="{{ member.email }}" target="_blank">
+				<i class="fa fa-envelope-square fa-2x"></i>
+			  	</a>
+				{% endif %}
+			 	{% if member.website %}
+				  <a href="{{ member.website }}" target="_blank">
+					<i class="fa fa-home fa-2x"></i>
+				  </a>
+				{% endif %}
+				{% if member.github %}
+				  <a href="{{ member.github }}" target="_blank">
+					<i class="fa fa-github-square fa-2x"></i>
+				  </a>
+				{% endif %}
+				{% if member.scholar %}
+				  <a href="{{ member.scholar }}" target="_blank">
+					<i class="ai ai-google-scholar-square ai-2x"></i>
+				  </a>
+				{% endif %}
+			  {% endfor %}
+			</div>
+		  </div>
+  
+		  <!-- Site Location Column -->
+		  <div class="col-sm-4" style="text-align: right;">
+			<p>{{ site.location }}</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+  
+
+	
+	
+
