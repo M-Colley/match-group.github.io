@@ -15,6 +15,10 @@ Interaction Centre (UCLIC)</a>. We research how people interact with advanced mo
 with a focus on accessibility for all users and on building appropriate trust in automation.
 </p>
 
+Meet the people behind the lab on the [team page]({{ site.url }}{{ site.baseurl }}/team/), explore
+[what we work on]({{ site.url }}{{ site.baseurl }}/research/), or browse our
+[publications]({{ site.url }}{{ site.baseurl }}/publications/).
+
 ## Group Lead
 
 {% for member in site.data.pi %}
@@ -78,7 +82,6 @@ work with outstanding researchers and groups, including:
 * <a href="https://tech.cornell.edu/people/wendy-ju/" target="_blank" rel="noopener">Prof. Wendy Ju</a> — Future Automation Research Lab, Cornell Tech
 * <a href="https://www.uni-ulm.de/en/in/mi/institut/personal/er/" target="_blank" rel="noopener">Prof. Enrico Rukzio</a> — Institute of Media Informatics, Ulm University
 * <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" target="_blank" rel="noopener">Prof. Takeo Igarashi</a> — User Interface Research Group, University of Tokyo
-* <a href="https://scholar.google.de/citations?user=cR1_0-EAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Pascal Jansen</a> — Ulm University
 * <a href="https://debdey.com/" target="_blank" rel="noopener">Dr. Debargha "Dave" Dey</a> — Assistant Professor, Eindhoven University of Technology
 * <a href="https://hpi.de/en/research/research-groups/computational-interaction.html" target="_blank" rel="noopener">Prof. Patrick Ebel</a> — Computational Interaction, Hasso Plattner Institute (HPI)
 * <a href="https://bazilinskyy.github.io/" target="_blank" rel="noopener">Dr. Pavlo Bazilinskyy</a> — Assistant Professor, Eindhoven University of Technology
