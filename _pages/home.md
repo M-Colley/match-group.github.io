@@ -3,6 +3,8 @@ title: "Home"
 layout: gridlay
 sitemap: true
 permalink: /
+description: "MATCH (Mobility, Accessibility, and Computational HCI) Lab & Friends, led by Dr. Mark Colley at the UCL Interaction Centre — HCI for accessible, trustworthy mobility."
+image: /images/hero-road.jpg
 ---
 
 <!-- ===================== HERO ===================== -->
