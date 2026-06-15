@@ -1,6 +1,30 @@
-- date: 20 November, 2023
-  headline: ... # "<a href='https://arxiv.org/abs/1912.07022' target='_blank'>Paper</a> on near-crevice bubble collapse with N. Adam's TU Munich group accepted to JFM!"
+# Most recent first. `headline` may contain HTML.
+- date: "April 2026"
+  headline: 'Mark was selected as a <a href="https://www.absw.org.uk/pages/absw-media-fellowships" target="_blank" rel="noopener">2026 ABSW Media Fellow</a>. Supported by UCL, he will spend several weeks embedded in a major UK media outlet, working with science journalists to communicate HCI and future-mobility research to a broader audience.'
 
+- date: "February 2026"
+  headline: "Mark is a Visiting Professor at the University of Tokyo, supported by the Canon Foundation Research Fellowship, in Takeo Igarashi's User Interface Research Group."
 
-- date: 
-  headline: 
+- date: "January 2026"
+  headline: 'Mark joined the ACM Transactions on Computer-Human Interaction (TOCHI) Distinguished Reviewer Board, and 10 co-authored papers were conditionally accepted to CHI&rsquo;26 — see you in Barcelona!'
+
+- date: "December 2025"
+  headline: "Mark was a Visiting Professor at TU Eindhoven, supported by the Eindhoven Artificial Intelligence Systems Institute (EAISI) Visiting Professors Scholarship."
+
+- date: "November 2025"
+  headline: "Mark became a Fellow of the Higher Education Academy (FHEA) and gave invited talks at World Usability Day Ingolstadt and the Huawei UX Design Technology Conference (UXTC) in Lund."
+
+- date: "2025"
+  headline: "The group received multiple paper awards in 2025: Best Paper (AutoUI), Best Blue Sky Vision Paper (ICMI), Best Paper (WISS), and an Honorable Mention (MUM)."
+
+- date: "2025"
+  headline: "Mark received the UCL Computer Science Early Career Researcher of the Year 2025 award and the SaxFDM Open Data Award 2025."
+
+- date: "August 2025"
+  headline: "Mark joined IEEE Transactions on Human-Machine Systems as an Associate Editor."
+
+- date: "April 2025"
+  headline: "Mark received the SIGCHI Special Recognition at CHI'25 and presented two papers in Yokohama."
+
+- date: "April 2024"
+  headline: 'Mark defended his PhD thesis, <em>&ldquo;Calibrating Trust in Automated Vehicles&rdquo;</em>, at Ulm University.'

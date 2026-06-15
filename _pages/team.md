@@ -1,103 +1,54 @@
 ---
 title: "Team"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /team/
 ---
 
+<div class="section-kicker" markdown="0">People</div>
+# The Team
 
-<!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
-
-<!--- **You want to work with us? See our [open positions]({{ site.url }}{{ site.baseurl }}/vacancies).**-->
-
-
-
-<!--- ## Team Lead
-
-{% for member in site.data.team_members %}
-  {% if member.position == "lead" %}
-  
-  <div class="row">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="18%" style="float: left" />
-    <h4>{{ member.name }}</h4>
-    <i>{{ member.info }}</i><br>
-    <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
-    {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
-    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-    {% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-    {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-    {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
-    </p>
-
-   <i> Research Interests: </i>
-  <ul style="overflow: hidden">
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  </ul>
-</div>
-{% endif %}
-{% endfor %}
--->
-
-## The Team
+<p class="lead-text" markdown="0">
+The MATCH Lab is growing. Below is our team today — and we are actively recruiting students and
+researchers who want to work at the intersection of HCI, accessibility, and mobility.
+</p>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-{% if member.position != "lead" %}
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
-<div class="row">
+<div class="row" markdown="0">
 {% endif %}
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="38%" style="float: left" />
+<div class="col-sm-6 clearfix" markdown="0">
+  {% if member.photo %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" alt="{{ member.name }}" class="img-responsive" width="38%" style="float: left" />
+  {% else %}
+  {% assign np = member.name | strip | split: ' ' %}
+  <div class="team-initials" aria-hidden="true">{{ np.first | slice: 0 }}{% if np.size > 1 %}{{ np.last | slice: 0 }}{% endif %}</div>
+  {% endif %}
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br></i>
   <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
-    {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
-    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-    {% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-    {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-    {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+    {% if member.website %}<a href="{{ member.website }}" target="_blank" rel="noopener"><i class="fa fa-home fa-2x"></i></a> {% endif %}
+    {% if member.email %}<a href="mailto:{{ member.email }}"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
+    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
+    {% if member.cv %}<a href="{{ member.cv }}" target="_blank" rel="noopener"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+    {% if member.github %}<a href="{{ member.github }}" target="_blank" rel="noopener"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+    {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank" rel="noopener"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
   </p>
 
+  {% if member.education1 %}
   <i> Research Interests: </i>
   <ul style="overflow: hidden">
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
+  {% if member.number_educ >= 1 %}<li> {{ member.education1 }} </li>{% endif %}
+  {% if member.number_educ >= 2 %}<li> {{ member.education2 }} </li>{% endif %}
+  {% if member.number_educ >= 3 %}<li> {{ member.education3 }} </li>{% endif %}
+  {% if member.number_educ >= 4 %}<li> {{ member.education4 }} </li>{% endif %}
+  {% if member.number_educ >= 5 %}<li> {{ member.education5 }} </li>{% endif %}
   </ul>
+  {% endif %}
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}
@@ -105,7 +56,6 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-{% endif %}
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -113,124 +63,52 @@ permalink: /team/
 </div>
 {% endif %}
 
-
+{% if site.data.alumni_members.size > 0 %}
 ## Alumni
 
-
-{% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
-{% if member.position != "lead" %}
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="38%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br></i>
-  <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
-    {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
-    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
-    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
-    {% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
-    {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
-    {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
-  </p>
-
-  <i> Research Interests: </i>
-  <ul style="overflow: hidden">
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-{% endif %}
+* **{{ member.name }}** — {{ member.info }}
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
 {% endif %}
 
+## Affiliated PhD researchers
 
+PhD students and candidates Mark co-mentors at partner institutions.
 
-[//]: # ({% if site.data.alumni_visitors %})
+<div markdown="0">
+{% assign aff_groups = site.data.affiliates | group_by: "affiliation" %}
+{% for g in aff_groups %}
+<h4 class="aff-group">{{ g.name }}</h4>
+<ul class="aff-list">
+{% for p in g.items %}<li>{{ p.name }} <span class="aff-since">· since {{ p.since }}</span></li>{% endfor %}
+</ul>
+{% endfor %}
+</div>
 
-[//]: # (## Former M.S./B.S Students, Visitors)
+## Recent &amp; upcoming visiting researchers
 
-[//]: # ()
-[//]: # (<div class="row">)
+<div markdown="0">
+<ul class="aff-list">
+{% for p in site.data.visiting %}<li>{{ p.name }} <span class="aff-since">· {{ p.period }}</span></li>{% endfor %}
+</ul>
+</div>
 
-[//]: # ()
-[//]: # (<div class="col-sm-6 clearfix">)
+## Friends of the lab
 
-[//]: # ()
-[//]: # ({% for member in site.data.alumni_visitors %})
+Senior collaborators we regularly work with — the "&amp; Friends" in MATCH Lab &amp; Friends:
 
-[//]: # ()
-[//]: # ({{ member.name }})
+* <a href="https://tech.cornell.edu/people/wendy-ju/" target="_blank" rel="noopener">Prof. Wendy Ju</a> — Cornell Tech
+* <a href="https://www.uni-ulm.de/en/in/mi/institut/personal/er/" target="_blank" rel="noopener">Prof. Enrico Rukzio</a> — Ulm University
+* <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" target="_blank" rel="noopener">Prof. Takeo Igarashi</a> — University of Tokyo
+* Dr. Debargha Dey — TU Eindhoven
 
-[//]: # ()
-[//]: # ({% endfor %})
-
-[//]: # ()
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # (</div>)
-
-[//]: # ()
-[//]: # ({% endif %})
-
-[//]: # ()
-[//]: # (## Alumni)
-
-[//]: # (- Juliette-Michelle Burkhardt &#40;Student Assistant, 2024&#41;)
-
-## Bachelor and Master Students
-
-### Ongoing
-- Anton Gasse: _Modeling Visual Sampling Processes via Computational Rationality_ (Bachelor Thesis)
-
-### Finished
-- Hannah Bussmann: _Simulating Human-Like Touch Interactions Through RL-based Biomechanical Modeling_ (Master Thesis, 2025)
-- Simon Lämmer: _GTA: Generative Traffic Agents for Simulating Realistic Traffic Behavior_ (Master Thesis, 2025)
-- Niko Konzack: _A Computationally Rational Model of Human Visual Sampling for Atari Games_ (Master Thesis, 2025)
-- Georg Schneeberger:  _End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous
-  Driving_ (Master Thesis, 2024)
-- Moritz Wörmann: _Generating Aesthetic UI Alternatives under Constraints_ (Bachelor Thesis, 2024)
+<div class="join-box" markdown="0">
+  <h3>🎓 Work with us</h3>
+  <p>We are open to mentoring <strong>Bachelor, Master, and PhD students</strong> and welcome
+  <strong>visiting researchers</strong> and <strong>collaborators</strong>. If you are excited about
+  human-computer interaction for accessible, trustworthy mobility — automated vehicles, eHMIs, urban
+  air mobility, or computational modelling of interaction — we would love to hear from you.</p>
+  <a href="mailto:m.colley@ucl.ac.uk" class="btn-match">Email Mark</a>
+  &nbsp;
+  <a href="{{ site.url }}{{ site.baseurl }}/research" class="btn-ghost">See our research</a>
+</div>

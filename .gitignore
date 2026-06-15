@@ -1,1 +1,8 @@
 .DS_Store
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+preview.html
+preview-team.html

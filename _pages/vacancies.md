@@ -1,26 +1,21 @@
 ---
 title: "Vacancies"
-layout: gridlay
+layout: textlay
 sitemap: false
 permalink: /vacancies/
 ---
 
-# Talks
+<div class="section-kicker" markdown="0">Opportunities</div>
+## Open Positions &amp; Opportunities
 
-{% if site.data.conference_talks %}
-## Conference Abstracts
+We are building the MATCH Lab and are keen to hear from motivated people who want to work on
+human-computer interaction for accessible, trustworthy mobility.
 
-{% for publi in site.data.conference_talks %}
-* <strong>{{ publi.title }}</strong> <br/> <i>{{ publi.authors }}</i>, {{ publi.conf }} ({{ publi.year }})
-{% endfor %}
-{% endif %}
+- **PhD students** — prospective candidates interested in HCI, accessibility, automated-vehicle
+  interaction, or computational modelling of interaction are encouraged to get in touch with a short
+  statement of interest and CV.
+- **Master's & Bachelor's students** (at UCL) — we offer projects across our research pillars; see the
+  [research page]({{ site.url }}{{ site.baseurl }}/research) for topics.
+- **Visiting researchers & collaborators** — we welcome research visits and joint projects.
 
-
-{% if site.data.invited_talks %}
-## Invited Talks and Seminars
-
-{% for publi in site.data.invited_talks %}
-* {{ publi.name }}
-{% endfor %}
-{% endif %}
-
+Interested? Email **[m.colley@ucl.ac.uk](mailto:m.colley@ucl.ac.uk)**.

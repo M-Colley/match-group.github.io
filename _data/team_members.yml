@@ -1,13 +1,39 @@
 - name: Mark Colley
   photo: Mark_Colley.jpg
-  info: Lecturer (Assistant Professor), UCL
-  email: mark.colley@yahoo.de
+  info: Group Lead — Lecturer (Assistant Professor) in HCI, UCL
+  website: https://m-colley.github.io/
+  email: m.colley@ucl.ac.uk
   scholar: https://scholar.google.com/citations?user=Kt5I7wYAAAAJ&hl=de
   github: https://github.com/M-Colley
   number_educ: 3
   education1: Human-Computer Interaction (HCI)
-  education2: Accessibility and Inclusive Design
-  education3: Mobility and Automated Vehicle Interaction
+  education2: Accessibility & Inclusive Design
+  education3: Mobility & Automated Vehicle Interaction
 
+- name: Ramneek Ahluwalia
+  photo: Ramneek_Ahluwalia.jpg
+  info: "PhD Student, UCL · Mark Colley: primary supervisor"
+  website: https://www.ramneekahluwalia.com/
+  number_educ: 3
+  education1: Accessibility & inclusive design
+  education2: Assistive technology for blind & low-vision users
+  education3: Human-centred product design
 
+- name: Lan Xiao
+  info: "PhD Student, UCL · Mark Colley: second supervisor"
+  website: https://profiles.ucl.ac.uk/90544-lan-xiao
+  scholar: https://scholar.google.com/citations?user=mtzS68sAAAAJ
+  number_educ: 3
+  education1: Human-Computer Interaction
+  education2: Accessibility
+  education3: Computer-Supported Cooperative Work (CSCW)
 
+- name: Coral Zawadzki
+  info: "PhD Student, UCL Interaction Centre · Mark Colley: third supervisor"
+  website: https://profiles.ucl.ac.uk/93432-coral-zawadzki
+  email: coral.zawadzki.24@ucl.ac.uk
+
+- name: Jiawei Wang
+  info: "PhD Student, UCL Interaction Centre · Mark Colley: second supervisor"
+  website: https://wangjw18.github.io/
+  email: zcemjw1@ucl.ac.uk

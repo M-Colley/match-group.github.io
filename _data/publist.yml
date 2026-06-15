@@ -1,1 +1,211 @@
-[]
+# MATCH Lab publications.
+# Authors: wrap group members in <strong> ... </strong>.
+# `image` lives in images/pubpic/. `preview` (optional) is a short clip in files/videos/previews/
+#   shown on hover over the teaser. `selected: true` features the paper at the top of /publications.
+# `award` renders a badge. `links` is an ordered list of {name, url}.
+
+- title: "MIRAGE: Enabling Real-Time Automotive Mediated Reality"
+  image: mirage.jpg
+  preview: mirage.preview.mp4
+  authors: "Pascal Jansen*, Julian Britten*, <strong>Mark Colley*</strong>, Markus Sasalovici, Enrico Rukzio"
+  note: "* Joint first authors"
+  venue: "ACM CHI"
+  year: 2026
+  selected: true
+  links:
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2601.19385"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/mirage.mp4"
+
+- title: "ProVoice: Designing Proactive Functionality for In-Vehicle Conversational Assistants using Multi-Objective Bayesian Optimization to Enhance Driver Experience"
+  image: provoice.jpg
+  preview: provoice.preview.mp4
+  authors: "Josh Susak, Yifu Liu, Pascal Jansen, <strong>Mark Colley</strong>"
+  venue: "ACM CHI"
+  year: 2026
+  selected: true
+  links:
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2601.19421"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/provoice.mp4"
+
+- title: "eHMI for All — Investigating the Effect of External Communication of Automated Vehicles on Pedestrians, Manual Drivers, and Cyclists in Virtual Reality"
+  image: ehmi4all.jpg
+  preview: ehmi4all.preview.mp4
+  authors: "<strong>Mark Colley</strong>, Simon Kopp, Debargha Dey, Pascal Jansen, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2026
+  selected: true
+  links:
+    - name: "arXiv"
+      url: "https://arxiv.org/abs/2601.19440"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/ehmi4all.mp4"
+
+- title: "OptiCarVis: Improving Automated Vehicle Functionality Visualizations Using Bayesian Optimization to Enhance User Experience"
+  image: opticarvis.jpg
+  preview: opticar-video-figure.preview.mp4
+  authors: "Pascal Jansen*, <strong>Mark Colley*</strong>, Svenja Krauß, Daniel Hirschle, Enrico Rukzio"
+  note: "* Joint first authors"
+  venue: "ACM CHI"
+  year: 2025
+  award: "Honorable Mention"
+  selected: true
+  links:
+    - name: "ACM DL"
+      url: "https://dl.acm.org/doi/full/10.1145/3706598.3713514"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/opticar-video-figure.mp4"
+
+- title: "Improving External Communication of Automated Vehicles Using Bayesian Optimization"
+  image: ehmi-bo.jpg
+  preview: ehmi-video-figure.preview.mp4
+  authors: "<strong>Mark Colley*</strong>, Pascal Jansen*, Mugdha Keskar, Enrico Rukzio"
+  note: "* Joint first authors"
+  venue: "ACM CHI"
+  year: 2025
+  links:
+    - name: "ACM DL"
+      url: "https://dl.acm.org/doi/full/10.1145/3706598.3714187"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/ehmi-video-figure.mp4"
+
+- title: "Fly Away: Evaluating the Impact of Motion Fidelity on Optimized User Interface Design via Bayesian Optimization in Automated Urban Air Mobility Simulations"
+  image: uam-bo.jpg
+  preview: uam-bo-video-figure.preview.mp4
+  authors: "Luca-Maxim Meinhardt, Clara Schramm, Pascal Jansen, <strong>Mark Colley</strong>, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2025
+  links:
+    - name: "ACM DL"
+      url: "https://dl.acm.org/doi/full/10.1145/3706598.3713288"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/uam-bo-video-figure.mp4"
+
+- title: "Bumpy Ride? Understanding the Effects of External Forces on Spatial Interactions in Moving Vehicles"
+  image: bumpy-ride.jpg
+  preview: bumpy_ride.preview.mp4
+  authors: "Markus Sasalovici, Albin Zeqiri, Robin Connor Schramm, Oscar Javier Ariza Nuñez, Pascal Jansen, Jann Philipp Freiwald, <strong>Mark Colley</strong>, Christian Winkler, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2025
+  links:
+    - name: "ACM DL"
+      url: "https://dl.acm.org/doi/10.1145/3706598.3714077"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/bumpy_ride.mp4"
+
+- title: "Longitudinal Effects of Visualizing Uncertainty of Situation Detection and Prediction of Automated Vehicles on User Perceptions"
+  image: long-vis.jpg
+  preview: long-vis-video.preview.mp4
+  authors: "Pascal Jansen*, <strong>Mark Colley*</strong>, Max Rädler*, Jonas Schwedler, Enrico Rukzio"
+  note: "* Joint first authors"
+  venue: "Transportation Research Part F (Elsevier)"
+  year: 2025
+  links:
+    - name: "ScienceDirect"
+      url: "https://www.sciencedirect.com/science/article/pii/S1369847825001779"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/long-vis-video.mp4"
+
+- title: "Effects of a Gaze-Based 2D Platform Game on User Enjoyment, Perceived Competence, and Digital Eye Strain"
+  image: teaser_shed_some_fear.png
+  authors: "<strong>Mark Colley</strong>, Beate Wanner, Max Rädler, Marcel Rötzer, Julian Frommel, Teresa Hirzle, Pascal Jansen, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2024
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3613904.3641909"
+
+- title: "Investigating the Effects of External Communication and Platoon Behavior on Manual Drivers at Highway Access"
+  image: teaser_platoon.png
+  authors: "<strong>Mark Colley</strong>, Omid Rajabi, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2024
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3613904.3642365"
+
+- title: "Portobello: Extending Driving Simulation from the Lab to the Road"
+  image: teaser-figure-portobello.png
+  authors: "Fanjun Bu, Stacey Li, David Goedicke, <strong>Mark Colley</strong>, Gyanendra Sharma, Wendy Ju"
+  venue: "ACM CHI"
+  year: 2024
+  award: "Honorable Mention"
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3613904.3642341"
+
+- title: "Multi-Modal eHMIs: The Relative Impact of Light and Sound in AV–Pedestrian Interaction"
+  image: Teaser-multimodal.png
+  authors: "Debargha Dey, Toros Senan, Bart Hengeveld, <strong>Mark Colley</strong>, Azra Habibovic, Wendy Ju"
+  venue: "ACM CHI"
+  year: 2024
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3613904.3642031"
+
+- title: "AutoVis: Enabling Mixed-Immersive Analysis of Automotive User Interface Interaction Studies"
+  image: autovis.jpg
+  preview: AutoVis.preview.mp4
+  authors: "Pascal Jansen, Julian Britten, Alexander Häusele, Thilo Segschneider, <strong>Mark Colley</strong>, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2023
+  links:
+    - name: "ACM DL"
+      url: "https://dl.acm.org/doi/full/10.1145/3544548.3580760"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/AutoVis.mp4"
+
+- title: "Scalability in External Communication of Automated Vehicles: Evaluation and Recommendations"
+  image: scalability.png
+  authors: "<strong>Mark Colley</strong>, Benjamin Eder, Jan Ole Rixen, Enrico Rukzio"
+  venue: "ACM IMWUT"
+  year: 2023
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3596248"
+
+- title: "Come Fly With Me: Investigating the Effects of Path Visualizations in Automated Urban Air Mobility"
+  image: uam.png
+  authors: "<strong>Mark Colley*</strong>, Luca-Maxim Meinhardt*, Alexander Fassbender, Michael Rietzler, Enrico Rukzio"
+  note: "* Joint first authors"
+  venue: "ACM IMWUT"
+  year: 2023
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3596249"
+
+- title: "SwiVR-Car-Seat: Exploring Vehicle Motion Effects on Interaction Quality in Virtual Reality Automated Driving Using a Motorized Swivel Seat"
+  image: paper_teaser_swivr.png
+  preview: swivr-car-seat.preview.mp4
+  authors: "<strong>Mark Colley</strong>, Pascal Jansen, Enrico Rukzio, Jan Gugenheimer"
+  venue: "ACM IMWUT"
+  year: 2021
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3494968"
+    - name: "Supplemental"
+      url: "https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3494968&file=colley.zip"
+    - name: "Video"
+      url: "https://m-colley.github.io/files/videos/swivr-car-seat.mp4"
+
+- title: "Effects of Semantic Segmentation Visualization on Trust, Situation Awareness, and Cognitive Load in Highly Automated Vehicles"
+  image: semantic.png
+  authors: "<strong>Mark Colley</strong>, Benjamin Eder, Jan Ole Rixen, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2021
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3411764.3445351"
+
+- title: "Towards Inclusive External Communication of Autonomous Vehicles for Pedestrians with Vision Impairments"
+  image: towards_chi_2020.png
+  authors: "<strong>Mark Colley</strong>, Marcel Walch, Jan Gugenheimer, Ali Askari, Enrico Rukzio"
+  venue: "ACM CHI"
+  year: 2020
+  award: "Honorable Mention"
+  links:
+    - name: "DOI"
+      url: "https://doi.org/10.1145/3313831.3376472"

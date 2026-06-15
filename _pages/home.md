@@ -1,53 +1,131 @@
 ---
 title: "Home"
 layout: gridlay
-sitemap: false
+sitemap: true
 permalink: /
 ---
 
-<style>
-code {padding: 6px 8px; font-size: 90%;}
-.row h2 {padding: 16px 16px}
-.row h4 {padding: 16px 16px}
-.row p {padding: 16px 16px}
-.hero {padding: 50px 0; border-radius: 10px;}
-.hero h1 {font-size: 3em;}
-.hero p {font-size: 1.2em; color: 333;}
-</style>
-
-
-<div class="row">
-  <h2>CIAO &#128075; </h2>
-  <p>We are the Junior <strong> Research Group CIAO (Computational Interaction and Mobility) </strong> and work at the intersection of machine learning, human-computer interaction and mobility. We develop computational models that simulate human interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. Our models are either data-driven (based on usage data collected in the real-world or in experimental studies) or based on computational rationality and reinforcement learning. 
-  <br><br>
-  We are part of the Center for <a href="https://scads.ai" target="_blank"> Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) </a> at Leipzig University. ScaDS.AI Dresden/Leipzig is one of five new AI centers in Germany funded under the federal government’s AI strategy.
-</p>
-</div>
-
-
-<!-- Home Page Banner Image >-->
-<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 80%; height: auto;">
-
-
-<!-- Interview for a project called "Digitial Mobile Classroom", which aims to promote computer science and AI for students in German schools. >-->
-
-<!-- <iframe id="frame-5777" src="https://player.vimeo.com/video/912193151?byline=0&portrait=0"" frameborder="0" allowfullscreen></iframe>  >-->
-
-
-
-<!-- Our Idea Section -->
-<div class="row">
-  <h4>Our Vision</h4>
+<!-- ===================== HERO ===================== -->
+<div class="match-hero" markdown="0">
+  <h1>The <span class="match-acronym">MATCH</span> Lab <span class="match-amp">&amp; Friends</span></h1>
+  <div class="match-sub">Mobility · Accessibility · Computational HCI</div>
   <p>
-    At <strong>CIAO</strong> our vision is to develop simulated users that accurately replicate human interactions with complex computing systems. These simulated users, which model cognition, perception, and motor control, can be used not only to evaluate interactive systems long before expensive experimental user testing, but also to build interactive systems that understand, predict, and adapt to human cognition and behavior. We aim to contribute to a better understanding of how humans interact with intelligent interfaces and transportation systems by developing new data-driven user models and evaluation methods <strong>(1)</strong> based on supervised machine learning and <strong>(2)</strong> based on the theory of computational rationality and reinforcement learning. Learn more about our research <a href="https://ciao-group.github.io/research/"> here</a>.
+    We are a Human-Computer Interaction research group at the
+    <a href="https://www.ucl.ac.uk/uclic" target="_blank" rel="noopener" style="color:#ffd86b;">UCL Interaction Centre</a>.
+    We design and study interactions that make the future of mobility — automated vehicles, urban air
+    mobility, and the streets around them — <strong>accessible to everyone</strong> and
+    <strong>worthy of people's trust</strong>, combining empirical user research with computational
+    modelling and simulation.
   </p>
-
+  <div class="hero-cta">
+    <a href="{{ site.url }}{{ site.baseurl }}/research" class="btn-ghost">Our research</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/publications" class="btn-ghost">Publications</a>
+    <a href="{{ site.url }}{{ site.baseurl }}/team" class="btn-ghost">Join us</a>
+  </div>
 </div>
 
+<!-- ===================== STATS ===================== -->
+<div class="stat-grid" markdown="0">
+  <div class="stat"><div class="stat-num">45+</div><div class="stat-label">First-author papers</div></div>
+  <div class="stat"><div class="stat-num">30</div><div class="stat-label">CHI full papers</div></div>
+  <div class="stat"><div class="stat-num">11</div><div class="stat-label">IMWUT full papers</div></div>
+  <div class="stat"><div class="stat-num">Multiple</div><div class="stat-label">Best-paper awards</div></div>
+</div>
+<p class="stat-caption" markdown="0">Research record of the group lead, Dr. Mark Colley.</p>
 
-<div class="row" style="text-align:center">
-  <iframe style="display:inline-block; border-radius: 5px; border:0px solid #FFF; width: 95%; height: 400px" src="https://player.vimeo.com/video/912193151" frameborder="0" allowfullscreen=""></iframe>
+<!-- ===================== MISSION ===================== -->
+<div class="row" markdown="0" style="margin-bottom: 10px;">
+  <div class="col-sm-12">
+    <div class="section-kicker">What we do</div>
+    <h2 class="section-heading">Human-centred interaction for accessible, trustworthy mobility</h2>
+    <p class="lead-text">
+      Mobility is a cornerstone of participation in society. As transport becomes automated and
+      reaches into new spaces such as urban air mobility, we face a dual challenge: building
+      <em>appropriate trust</em> in systems people cannot fully see, and ensuring these systems
+      work for <em>everyone</em>, including people with disabilities and vulnerable road users.
+      We tackle this by pairing rigorous empirical studies with simulation and computational
+      models that let us evaluate interfaces at scale — often before the first user study is run.
+    </p>
+  </div>
+</div>
 
-  <p>Interview for a project called "Digitial Mobile Classroom", which aims to promote computer science and AI for students in German schools.
-  </p>
+<!-- ===================== RESEARCH PILLARS ===================== -->
+<div class="pillars" markdown="0">
+  <div class="pillar-card">
+    <span class="pillar-icon" aria-hidden="true">♿</span>
+    <h4>Accessibility &amp; Inclusive Design</h4>
+    <p>Inclusive external communication and in-vehicle interfaces so automated mobility works for
+       people with visual, hearing, and other impairments — not just the average user.</p>
+  </div>
+  <div class="pillar-card">
+    <span class="pillar-icon" aria-hidden="true">🚗</span>
+    <h4>Mobility &amp; AV Interaction</h4>
+    <p>External Human-Machine Interfaces (eHMIs), automated vehicles, cooperative driving, urban air
+       mobility, and the safety of vulnerable road users.</p>
+  </div>
+  <div class="pillar-card">
+    <span class="pillar-icon" aria-hidden="true">🧠</span>
+    <h4>Computational Modelling &amp; Simulation</h4>
+    <p>Bayesian optimisation of interfaces, large-scale traffic simulation (e.g. PedSUMO), and
+       human-centred models that predict and improve user experience.</p>
+  </div>
+</div>
+<div style="margin: 6px 0 26px;" markdown="0">
+  <a href="{{ site.url }}{{ site.baseurl }}/research" class="btn-match">Explore our research →</a>
+</div>
+
+<!-- ===================== SELECTED PUBLICATIONS ===================== -->
+<div class="row" markdown="0">
+  <div class="col-sm-12">
+    <div class="section-kicker">Highlights</div>
+    <h2 class="section-heading">Selected publications</h2>
+  </div>
+</div>
+<div class="pub-list" markdown="0">
+{% assign selected = site.data.publist | where: "selected", true %}
+{% for pub in selected limit:3 %}
+  <div class="pub-card">
+    <div class="pub-thumb{% if pub.preview %} has-video{% endif %}"><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ pub.image }}" alt="{{ pub.title | escape }} teaser" loading="lazy">{% if pub.preview %}<video class="pub-video-preview" muted loop playsinline preload="none"><source src="{{ site.url }}{{ site.baseurl }}/files/videos/previews/{{ pub.preview }}" type="video/mp4"></video>{% endif %}</div>
+    <div class="pub-body">
+      <div class="pub-title">{{ pub.title }}{% if pub.award %}<span class="award-badge">★ {{ pub.award }}</span>{% endif %}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-venue">{{ pub.venue }} · {{ pub.year }}</div>
+      <div class="pub-links">
+        {% for link in pub.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>{% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+<div style="margin: 2px 0 26px;" markdown="0">
+  <a href="{{ site.url }}{{ site.baseurl }}/publications" class="btn-ghost">All publications →</a>
+</div>
+
+<!-- ===================== RECENT NEWS ===================== -->
+<div class="row" markdown="0">
+  <div class="col-sm-12">
+    <div class="section-kicker">Latest</div>
+    <h2 class="section-heading">News</h2>
+  </div>
+</div>
+<div class="news-feed" markdown="0">
+{% for article in site.data.news limit:5 %}
+  {% if article.headline %}
+  <div class="news-item">
+    <div class="news-date">{{ article.date }}</div>
+    <div class="news-body">{{ article.headline }}</div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+<div style="margin: 2px 0 26px;" markdown="0">
+  <a href="{{ site.url }}{{ site.baseurl }}/news" class="btn-ghost">More news →</a>
+</div>
+
+<!-- ===================== JOIN ===================== -->
+<div class="join-box" markdown="0">
+  <h3>🎓 Join the MATCH Lab</h3>
+  <p>We are open to mentoring Bachelor, Master, and PhD students, and welcome collaborators and friends
+     in HCI, accessibility, and mobility. Prospective PhD students and visitors are encouraged to get in touch.</p>
+  <a href="mailto:m.colley@ucl.ac.uk" class="btn-match">Get in touch</a>
 </div>

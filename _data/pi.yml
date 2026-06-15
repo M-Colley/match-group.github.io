@@ -1,14 +1,14 @@
 - name: Mark Colley
   photo: Mark_Colley.jpg
-  info: Lecturer (Assistant Professor), University College London
+  info: Group Lead — Lecturer (Assistant Professor) in HCI, UCL Interaction Centre
   website: https://m-colley.github.io/
-  email: mark.colley@yahoo.de
+  email: m.colley@ucl.ac.uk
   github: https://github.com/M-Colley
   researchgate: https://www.researchgate.net/profile/Mark-Colley
   scholar: https://scholar.google.com/citations?user=Kt5I7wYAAAAJ&hl=de
-  cv: https://m-colley.github.io/files/CV_Colley_2025.pdf
-  number_educ: 3 # Anzahl von den darzustellenden Punkten
+  cv: https://m-colley.github.io/files/CV_Colley_2026.pdf
+  number_educ: 3 # number of bullet points to display
   education1: Human-Computer Interaction (HCI)
-  education2: Accessibility and Inclusive Design
-  education3: Mobility and Automated Vehicle Interaction
+  education2: Accessibility & Inclusive Design
+  education3: Mobility & Automated Vehicle Interaction
   education1short: HCI, accessibility, and mobility research at UCL

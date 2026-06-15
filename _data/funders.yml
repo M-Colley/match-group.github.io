@@ -1,4 +1,3 @@
-- image: University_College_London_logo.svg
+# Affiliations / funders. Add an `image` (in images/logopic/) to show a logo.
+- name: "University College London (UCL)"
   url: https://www.ucl.ac.uk/
-- image: PLACEHOLDER-5.png
-  url: 

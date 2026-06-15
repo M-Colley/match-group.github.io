@@ -1,13 +1,15 @@
 # Site settings
-title: MATCH Group
-email: match.hci.group@gmail.me
-description: "Building computational models of interaction."
+title: MATCH Lab
+email: m.colley@ucl.ac.uk
+description: "MATCH (Mobility, Accessibility, and Computational HCI) Lab & Friends, led by Dr. Mark Colley at the UCL Interaction Centre — HCI for accessible, trustworthy mobility."
+tagline: "Mobility, Accessibility, and Computational HCI"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://match-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# affiliation: We are a part of <a href="http://scads.ai" target="_blank">SCADS.AI</a> at Leipzig University
+affiliation: We are part of the <a href="https://www.ucl.ac.uk/uclic" target="_blank">UCL Interaction Centre (UCLIC)</a>
 
-# Google analytics ID
-google_analytics: UA-XXXXX-Y # Put your actual GA identifier
+# Google analytics ID — set to a real GA4 measurement id (G-XXXXXXX) to enable analytics.
+# Left blank so no broken tracker is shipped; analytics.html would need updating to gtag.js/GA4.
+# google_analytics: G-XXXXXXX
 
 # Location info. (shown in footer)
 location: >
@@ -25,9 +27,11 @@ location: >
 # Pages shown in navbar
 nav_pages:
 
-  - name: publications
   - name: research
+  - name: publications
   - name: team
+  - name: news
+  - name: about
 
 # Do you want to group your publications by year? {true/false}
 group_pub_by_year: true
