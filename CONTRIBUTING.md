@@ -84,11 +84,13 @@ File: [`_data/news.yml`](_data/news.yml). Newest first, at the top:
   - name: Full Name
     affiliation: University Name
     since: 2026
+    url: https://...        # optional — links the person's name (homepage / profile / Scholar)
   ```
 - Visiting researchers: [`_data/visiting.yml`](_data/visiting.yml)
   ```yaml
   - name: Full Name
     period: "Jan–Mar 2026"
+    url: https://...        # optional — links the person's name
   ```
 
 ## ➕ Add a talk, award, or grant

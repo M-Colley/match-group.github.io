@@ -80,7 +80,7 @@ PhD students and candidates Mark co-mentors at partner institutions.
 {% for g in aff_groups %}
 <h4 class="aff-group">{{ g.name }}</h4>
 <ul class="aff-list">
-{% for p in g.items %}<li>{{ p.name }} <span class="aff-since">· since {{ p.since }}</span></li>{% endfor %}
+{% for p in g.items %}<li>{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %} <span class="aff-since">· since {{ p.since }}</span></li>{% endfor %}
 </ul>
 {% endfor %}
 </div>
@@ -89,7 +89,7 @@ PhD students and candidates Mark co-mentors at partner institutions.
 
 <div markdown="0">
 <ul class="aff-list">
-{% for p in site.data.visiting %}<li>{{ p.name }} <span class="aff-since">· {{ p.period }}</span></li>{% endfor %}
+{% for p in site.data.visiting %}<li>{% if p.url %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %} <span class="aff-since">· {{ p.period }}</span></li>{% endfor %}
 </ul>
 </div>
 

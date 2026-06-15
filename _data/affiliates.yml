@@ -1,32 +1,42 @@
 # PhD students & candidates Mark co-mentors at partner institutions (from CV, April 2026).
-# Rendered grouped by affiliation on the Team page.
+# Rendered grouped by affiliation on the Team page. `url` (optional) links the person's name.
 - name: Pascal Jansen
   affiliation: Ulm University
   since: 2021
+  url: https://pascal-jansen.github.io/
 - name: Annika Stampf
   affiliation: Ulm University
   since: 2021
+  url: https://www.uni-ulm.de/in/mi/institut/personal/annika-stampf/
 - name: Luca-Maxim Meinhardt
   affiliation: Ulm University
   since: 2022
+  url: https://www.uni-ulm.de/in/mi/institut/personal/luca-maxim-meinhardt/
 - name: Max Rädler
   affiliation: Ulm University
   since: 2024
+  url: https://www.uni-ulm.de/in/mi/institut/personal/max-raedler/
 - name: Markus Sasalovici
   affiliation: Ulm University
   since: 2024
+  url: https://www.uni-ulm.de/in/mi/institut/personal/markus-sasalovici/
 - name: Julian Britten
   affiliation: Ulm University
   since: 2025
+  url: https://www.uni-ulm.de/in/mi/institut/personal/julian-britten/
 - name: Mathias Haimerl
   affiliation: TH Ingolstadt
   since: 2021
+  url: https://hcig.thi.de/team/mathias-haimerl/
 - name: Yotam Sechayk
   affiliation: University of Tokyo
   since: 2025
+  url: https://tomfluff.github.io/
 - name: Xinyue Gui
   affiliation: University of Tokyo
   since: 2025
+  url: https://xinyuegui.github.io/
 - name: Ding Xia
   affiliation: University of Tokyo
   since: 2025
+  url: https://apisxia.github.io/

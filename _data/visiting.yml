@@ -1,13 +1,20 @@
 # Recent / upcoming visiting researchers hosted by Mark (from CV, April 2026).
+# `url` (optional) links the person's name.
 - name: Pascal Jansen
   period: "Jan–Mar 2025"
+  url: https://pascal-jansen.github.io/
 - name: Carolin Stellmacher
   period: "Jun–Sep 2025"
+  url: https://www.uni-bremen.de/en/dmlab/team/carolin-stellmacher
 - name: Marina Ricci
   period: "Oct–Nov 2025"
+  url: https://scholar.google.com/citations?user=AjKP0SIAAAAJ
 - name: Mengyang Ren
   period: "Oct 2025–Feb 2026"
+  url: https://scholar.google.com/citations?user=5rFZNuwAAAAJ
 - name: Leon Hanschmann
   period: "Nov 2025–Mar 2026"
+  url: https://h-lab.win.kit.edu/team_2804.php
 - name: Robin Connor Schramm
   period: "Mar–May 2026"
+  url: https://schrammr.github.io/
