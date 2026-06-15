@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="MATCH Lab">
+  <title>MATCH Lab</title>
+  <!-- "M" drawn as a node-link network: computational HCI (network) + mobility (centre = location pin) + interaction (tap-ring node) -->
+  <mask id="match-holes">
+    <rect width="1024" height="1024" fill="white"/>
+    <circle cx="345" cy="300" r="30" fill="black"/>   <!-- tap-ring hole -->
+    <circle cx="512" cy="505" r="34" fill="black"/>   <!-- location-pin hole -->
+  </mask>
+  <g fill="#ffffff" mask="url(#match-holes)">
+    <path d="M250 770 L345 300 L512 560 L679 300 L774 770"
+          fill="none" stroke="#ffffff" stroke-width="34"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="250" cy="770" r="40"/>
+    <circle cx="679" cy="300" r="46"/>
+    <circle cx="774" cy="770" r="40"/>
+    <circle cx="345" cy="300" r="58"/>              <!-- tap-ring node -->
+    <circle cx="512" cy="505" r="86"/>              <!-- pin head -->
+    <polygon points="446,543 578,543 512,655"/>     <!-- pin point -->
+  </g>
+</svg>
