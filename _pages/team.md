@@ -102,6 +102,7 @@ Senior collaborators we regularly work with — the "&amp; Friends" in MATCH Lab
 * <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" target="_blank" rel="noopener">Prof. Takeo Igarashi</a> — University of Tokyo
 * <a href="https://debdey.com/" target="_blank" rel="noopener">Dr. Debargha "Dave" Dey</a> — Assistant Professor, TU Eindhoven
 * <a href="https://hpi.de/en/research/research-groups/computational-interaction.html" target="_blank" rel="noopener">Prof. Patrick Ebel</a> — Computational Interaction, Hasso Plattner Institute (HPI)
+* <a href="https://bazilinskyy.github.io/" target="_blank" rel="noopener">Dr. Pavlo Bazilinskyy</a> — Assistant Professor, TU Eindhoven
 
 <div class="join-box" markdown="0">
   <h3>🎓 Work with us</h3>

@@ -81,6 +81,7 @@ work with outstanding researchers and groups, including:
 * <a href="https://scholar.google.de/citations?user=cR1_0-EAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Pascal Jansen</a> — Ulm University
 * <a href="https://debdey.com/" target="_blank" rel="noopener">Dr. Debargha "Dave" Dey</a> — Assistant Professor, Eindhoven University of Technology
 * <a href="https://hpi.de/en/research/research-groups/computational-interaction.html" target="_blank" rel="noopener">Prof. Patrick Ebel</a> — Computational Interaction, Hasso Plattner Institute (HPI)
+* <a href="https://bazilinskyy.github.io/" target="_blank" rel="noopener">Dr. Pavlo Bazilinskyy</a> — Assistant Professor, Eindhoven University of Technology
 
 ## Where to find us
 

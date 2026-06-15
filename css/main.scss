@@ -199,7 +199,7 @@ firstp {
   background:
     linear-gradient(90deg, rgba(20,12,44,.60) 0%, rgba(20,12,44,.18) 58%, rgba(20,12,44,0) 100%),
     linear-gradient(120deg, rgba(36,22,74,.94) 0%, rgba(75,46,131,.88) 50%, rgba(0,150,140,.82) 100%),
-    url("/images/hero-road.jpg") center/cover no-repeat;
+    url("{{ '/images/hero-road.jpg' | relative_url }}") center/cover no-repeat;
   box-shadow: 0 18px 48px rgba(31,36,48,.22);
 }
 .match-hero h1 { font-size: 2.7em; font-weight: 800; margin: 0 0 6px; letter-spacing: -0.02em; line-height: 1.08; }

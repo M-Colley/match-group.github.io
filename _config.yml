@@ -3,8 +3,8 @@ title: MATCH Lab
 email: m.colley@ucl.ac.uk
 description: "MATCH (Mobility, Accessibility, and Computational HCI) Lab & Friends, led by Dr. Mark Colley at the UCL Interaction Centre — HCI for accessible, trustworthy mobility."
 tagline: "Mobility, Accessibility, and Computational HCI"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://match-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/match-group.github.io" # served as a project page at m-colley.github.io/match-group.github.io/
+url: "https://m-colley.github.io" # base host (the repo lives under the M-Colley account)
 affiliation: We are part of the <a href="https://www.ucl.ac.uk/uclic" target="_blank">UCL Interaction Centre (UCLIC)</a>
 
 # Google analytics ID — set to a real GA4 measurement id (G-XXXXXXX) to enable analytics.
