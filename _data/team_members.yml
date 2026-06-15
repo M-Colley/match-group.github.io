@@ -1,3 +1,18 @@
+# Team members. See CONTRIBUTING.md for the full guide. To add yourself, copy this template
+# to the end of the file and fill it in (only `name` is required; delete unused lines):
+#
+# - name: Your Full Name
+#   photo: Your_Name.jpg          # optional; file goes in images/teampic/. Omit -> initials avatar.
+#   info: "PhD Student, UCL"       # role line
+#   website: https://...           # optional
+#   email: you@ucl.ac.uk           # optional
+#   scholar: https://...           # optional
+#   github: https://github.com/... # optional
+#   number_educ: 3                 # number of research-interest bullets (0-5)
+#   education1: ...
+#   education2: ...
+#   education3: ...
+
 - name: Mark Colley
   photo: Mark_Colley.jpg
   info: Group Lead — Lecturer (Assistant Professor) in HCI, UCL

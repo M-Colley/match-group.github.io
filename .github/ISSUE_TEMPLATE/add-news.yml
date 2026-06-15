@@ -1,0 +1,19 @@
+name: "➕ Add news"
+description: Share an update for the News page
+title: "[News] "
+labels: ["content: news"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      placeholder: June 2026
+    validations:
+      required: true
+  - type: textarea
+    id: headline
+    attributes:
+      label: Headline
+      description: One or two sentences. Include any links.
+    validations:
+      required: true

@@ -1,0 +1,40 @@
+name: "➕ Add a team member"
+description: Add yourself (or someone) to the Team page
+title: "[Team] "
+labels: ["content: team"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Full name
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Role / position
+      placeholder: PhD Student, UCL
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links (optional)
+      description: Any of website, Google Scholar, GitHub, email — one per line.
+      placeholder: |
+        website https://...
+        scholar https://...
+        email you@ucl.ac.uk
+  - type: textarea
+    id: interests
+    attributes:
+      label: Research interests (optional)
+      description: Up to five, one per line.
+      placeholder: |
+        Human-Computer Interaction
+        Accessibility
+  - type: textarea
+    id: photo
+    attributes:
+      label: Headshot (optional)
+      description: Drag-and-drop a roughly square photo here.

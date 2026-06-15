@@ -1,8 +1,21 @@
-# MATCH Lab publications.
-# Authors: wrap group members in <strong> ... </strong>.
-# `image` lives in images/pubpic/. `preview` (optional) is a short clip in files/videos/previews/
-#   shown on hover over the teaser. `selected: true` features the paper at the top of /publications.
-# `award` renders a badge. `links` is an ordered list of {name, url}.
+# MATCH Lab publications. See CONTRIBUTING.md for the full guide.
+# Wrap group members in <strong> ... </strong> so they show in bold. Grouped by `year` automatically.
+# To add a paper, copy this template and fill it in (delete optional lines you don't need):
+#
+# - title: "Full Paper Title"
+#   image: teaser.jpg              # teaser in images/pubpic/
+#   preview: clip.preview.mp4      # optional hover video in files/videos/previews/
+#   authors: "Author One, <strong>Group Member</strong>, Author Three"
+#   note: "* Joint first authors"  # optional
+#   venue: "ACM CHI"
+#   year: 2026
+#   award: "Honorable Mention"     # optional -> badge
+#   selected: true                 # optional -> features on home + top of /publications
+#   links:
+#     - name: "DOI"
+#       url: "https://doi.org/..."
+#     - name: "Video"
+#       url: "https://..."
 
 - title: "MIRAGE: Enabling Real-Time Automotive Mediated Reality"
   image: mirage.jpg

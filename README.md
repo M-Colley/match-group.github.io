@@ -7,6 +7,9 @@ Built with [Jekyll](https://jekyllrb.com/) and served via GitHub Pages at
 
 ## Editing content
 
+**New contributors: see [CONTRIBUTING.md](CONTRIBUTING.md)** for copy-paste templates and step-by-step
+instructions (or just open an issue via the ➕ forms — no Git needed).
+
 Most content is data-driven — edit these files, no templating needed:
 
 | What | Where |

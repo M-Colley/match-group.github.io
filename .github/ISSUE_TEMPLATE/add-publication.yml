@@ -1,0 +1,61 @@
+name: "➕ Add a publication"
+description: Suggest a paper for the publications page
+title: "[Publication] "
+labels: ["content: publication"]
+body:
+  - type: markdown
+    attributes:
+      value: "Fill in what you can — a maintainer will add it to the site. See CONTRIBUTING.md for the file-edit alternative."
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Full paper title
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      description: Comma-separated, in order. Note which authors are MATCH Lab members (we render them bold).
+      placeholder: Author One, Mark Colley (member), Author Three
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      placeholder: ACM CHI
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+      placeholder: "2026"
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: One per line, as "Name URL" (e.g. DOI, PDF, arXiv, Video).
+      placeholder: |
+        DOI https://doi.org/...
+        Video https://...
+  - type: input
+    id: award
+    attributes:
+      label: Award (optional)
+      placeholder: Honorable Mention
+  - type: checkboxes
+    id: selected
+    attributes:
+      label: Feature this paper?
+      options:
+        - label: Show it on the home page and at the top of Publications
+  - type: textarea
+    id: media
+    attributes:
+      label: Teaser image / preview video / notes
+      description: Drag-and-drop a teaser image here, and add any preview-video link or extra notes.
