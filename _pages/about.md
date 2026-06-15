@@ -88,5 +88,6 @@ work with outstanding researchers and groups, including:
 
 ## Where to find us
 
-We are part of the [UCL Interaction Centre]({{ site.url }}{{ site.baseurl }}), 66–72 Gower Street, London.
-Get in touch at [m.colley@ucl.ac.uk](mailto:m.colley@ucl.ac.uk).
+We are part of the [UCL Interaction Centre](https://www.ucl.ac.uk/uclic), 66–72 Gower Street, London.
+Get in touch at [m.colley@ucl.ac.uk](mailto:m.colley@ucl.ac.uk), or see our open positions on the
+[vacancies page]({{ site.url }}{{ site.baseurl }}/vacancies/).
