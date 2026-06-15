@@ -20,6 +20,7 @@
   education3: Human-centred product design
 
 - name: Lan Xiao
+  photo: Lan_Xiao.png
   info: "PhD Student, UCL · Mark Colley: second supervisor"
   website: https://profiles.ucl.ac.uk/90544-lan-xiao
   scholar: https://scholar.google.com/citations?user=mtzS68sAAAAJ
@@ -29,11 +30,21 @@
   education3: Computer-Supported Cooperative Work (CSCW)
 
 - name: Coral Zawadzki
-  info: "PhD Student, UCL Interaction Centre · Mark Colley: third supervisor"
+  photo: Coral_Zawadzki.jpg
+  info: "Learning Technologist & part-time PhD Student, UCL · Mark Colley: third supervisor"
   website: https://profiles.ucl.ac.uk/93432-coral-zawadzki
   email: coral.zawadzki.24@ucl.ac.uk
+  number_educ: 3
+  education1: Extended Reality (XR) — VR, AR & MR
+  education2: XR for student skills & wellbeing
+  education3: Technology-enhanced learning in Higher Education
 
 - name: Jiawei Wang
+  photo: Jiawei_Wang.jpg
   info: "PhD Student, UCL Interaction Centre · Mark Colley: second supervisor"
-  website: https://wangjw18.github.io/
+  website: https://profiles.ucl.ac.uk/101807-jiawei-wang
   email: zcemjw1@ucl.ac.uk
+  number_educ: 3
+  education1: Human-Computer Interaction
+  education2: Multimodal chronic-pain assessment
+  education3: Physiological &amp; behavioural signal integration

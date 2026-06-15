@@ -100,7 +100,8 @@ Senior collaborators we regularly work with — the "&amp; Friends" in MATCH Lab
 * <a href="https://tech.cornell.edu/people/wendy-ju/" target="_blank" rel="noopener">Prof. Wendy Ju</a> — Cornell Tech
 * <a href="https://www.uni-ulm.de/en/in/mi/institut/personal/er/" target="_blank" rel="noopener">Prof. Enrico Rukzio</a> — Ulm University
 * <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" target="_blank" rel="noopener">Prof. Takeo Igarashi</a> — University of Tokyo
-* Dr. Debargha Dey — TU Eindhoven
+* <a href="https://debdey.com/" target="_blank" rel="noopener">Dr. Debargha "Dave" Dey</a> — Assistant Professor, TU Eindhoven
+* <a href="https://hpi.de/en/research/research-groups/computational-interaction.html" target="_blank" rel="noopener">Prof. Patrick Ebel</a> — Computational Interaction, Hasso Plattner Institute (HPI)
 
 <div class="join-box" markdown="0">
   <h3>🎓 Work with us</h3>

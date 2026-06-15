@@ -79,7 +79,8 @@ work with outstanding researchers and groups, including:
 * <a href="https://www.uni-ulm.de/en/in/mi/institut/personal/er/" target="_blank" rel="noopener">Prof. Enrico Rukzio</a> — Institute of Media Informatics, Ulm University
 * <a href="https://www-ui.is.s.u-tokyo.ac.jp/~takeo/" target="_blank" rel="noopener">Prof. Takeo Igarashi</a> — User Interface Research Group, University of Tokyo
 * <a href="https://scholar.google.de/citations?user=cR1_0-EAAAAJ&hl=en" target="_blank" rel="noopener">Dr. Pascal Jansen</a> — Ulm University
-* Dr. Debargha Dey — Eindhoven University of Technology
+* <a href="https://debdey.com/" target="_blank" rel="noopener">Dr. Debargha "Dave" Dey</a> — Assistant Professor, Eindhoven University of Technology
+* <a href="https://hpi.de/en/research/research-groups/computational-interaction.html" target="_blank" rel="noopener">Prof. Patrick Ebel</a> — Computational Interaction, Hasso Plattner Institute (HPI)
 
 ## Where to find us
 
