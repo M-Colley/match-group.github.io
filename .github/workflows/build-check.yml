@@ -32,3 +32,6 @@ jobs:
 
       - name: Build the site (fails on YAML/Liquid errors)
         run: jekyll build --trace
+        env:
+          # Build with the gem-installed GitHub Pages environment, not the repo Gemfile/Bundler.
+          JEKYLL_NO_BUNDLER_REQUIRE: "true"
