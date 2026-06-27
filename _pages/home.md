@@ -28,12 +28,11 @@ image: /images/hero-road.jpg
 
 <!-- ===================== STATS ===================== -->
 <div class="stat-grid" markdown="0">
-  <div class="stat"><div class="stat-num">45+</div><div class="stat-label">First-author papers</div></div>
-  <div class="stat"><div class="stat-num">30</div><div class="stat-label">CHI full papers</div></div>
-  <div class="stat"><div class="stat-num">11</div><div class="stat-label">IMWUT full papers</div></div>
+  <div class="stat"><div class="stat-num">80+</div><div class="stat-label">First-author papers</div></div>
+  <div class="stat"><div class="stat-num">30+</div><div class="stat-label">CHI full papers</div></div>
+  <div class="stat"><div class="stat-num">10+</div><div class="stat-label">IMWUT full papers</div></div>
   <div class="stat"><div class="stat-num">Multiple</div><div class="stat-label">Best-paper awards</div></div>
 </div>
-<p class="stat-caption" markdown="0">Research record of the group lead, Dr. Mark Colley.</p>
 
 <!-- ===================== MISSION ===================== -->
 <div class="row" markdown="0" style="margin-bottom: 10px;">
